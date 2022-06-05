@@ -10,6 +10,8 @@ Express one idea, one line at a time.
 
 Record your ideas in Git or another version control system.
 
+Feedback comes in the form of GitHub "code" reviews
+
 Develop in GitHub codespaces, or another environment that ties defined pieces of code to defined computing environments (docker container)
 
 By default, everything is private.
