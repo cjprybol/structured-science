@@ -94,6 +94,13 @@ cross-experiment tracking:
 
 Use time-based scheduling (cron) or event-driven scheduling (make a commit) to trigger CI/CD analyses/rebuilds/
 
+workflows:
+- on merge to master, require tests to pass (optional but preferred also a code review)
+- all development happens on dev branches that branch off master
+- experiments branch off master (or even better, a specific version tag on master)
+- experiments upload results and parameters to cloud data storage
+- experiment branch names are REPO-VERSION-EXP0000000#
+
 [use repository, user, and organization secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
 
 ## Guidelines
