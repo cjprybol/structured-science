@@ -65,17 +65,10 @@ transitioning from prototype to production:
 - https://12factor.net/
 
 cross-experiment tracking:
-- https://github.com/IDSIA/sacred
-- https://github.com/mlflow/mlflow
-- https://www.kubeflow.org/
-- https://www.pachyderm.com/
-- https://github.com/allegroai/clearml/
-- https://github.com/polyaxon/polyaxon
-- [https://dvc.org/](https://iterative.ai/)
-- https://wandb.ai/site (not open source)
-- https://neptune.ai/ (not open source)
-- https://www.comet.ml/site/ (not open source)
-- straight git
+
+![https://preview.redd.it/b3rlshkcqdq61.png](https://preview.redd.it/b3rlshkcqdq61.png?width=1600&format=png&auto=webp&s=c55613adee339bee7f606b81f2a4427cb670ab32)
+
+- straight git*
   - each git branch is an experiment
   - branch/experiment naming pattern?
   - params/config.yaml or .json defines setup
@@ -83,6 +76,18 @@ cross-experiment tracking:
   - results, artifacts, and figures are appended to database/data warehouse
   - CI/CD reports back if an experiment was successful or not
   - tableau visualizations of success
+- https://iterative.ai/*
+  - commercially supported version of the above git-based workflow
+- https://github.com/mlflow/mlflow*
+- https://github.com/allegroai/clearml/*
+- https://github.com/IDSIA/sacred
+- https://www.kubeflow.org/
+- https://www.pachyderm.com/
+- https://github.com/polyaxon/polyaxon
+- https://wandb.ai/site (not open source)
+- https://neptune.ai/ (not open source)
+- https://www.comet.ml/site/ (not open source)
+
 
 ## Guidelines
 
