@@ -1,4 +1,4 @@
-# single-page-science
+# structured-science
 
 ## What
 
