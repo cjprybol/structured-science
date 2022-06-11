@@ -90,6 +90,12 @@ cross-experiment tracking:
 
 [good guide on an open source mlops flow with deployment and monitoring](https://blog.verta.ai/robust-mlops-with-open-source-modeldb-docker-jenkins-and-prometheus)
 
+[deploy to production with github actions](https://docs.github.com/en/actions/migrating-to-github-actions/migrating-from-jenkins-to-github-actions)
+
+Use time-based scheduling (cron) or event-driven scheduling (make a commit) to trigger CI/CD analyses/rebuilds/
+
+[use repository, user, and organization secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+
 ## Guidelines
 
 Models should be interpretable in why they are making decisions:
