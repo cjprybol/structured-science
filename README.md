@@ -71,6 +71,7 @@ cross-experiment tracking:
 - https://www.pachyderm.com/
 - https://github.com/allegroai/clearml/
 - https://github.com/polyaxon/polyaxon
+- [https://dvc.org/](https://iterative.ai/)
 - https://wandb.ai/site (not open source)
 - https://neptune.ai/ (not open source)
 - https://www.comet.ml/site/ (not open source)
@@ -81,6 +82,7 @@ cross-experiment tracking:
   - jupyter notebook records outputs in a report (use papermill)
   - results, artifacts, and figures are appended to database/data warehouse
   - CI/CD reports back if an experiment was successful or not
+  - tableau visualizations of success
 
 ## Guidelines
 
