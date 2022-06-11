@@ -79,8 +79,8 @@ cross-experiment tracking:
   - branch/experiment naming pattern?
   - params/config.yaml or .json defines setup
   - jupyter notebook records outputs in a report (use papermill)
-  - results and figures are appended results file
-  - if an experiment is successful, auto-merge it back into master to append to master experiment record
+  - results, artifacts, and figures are appended to database/data warehouse
+  - CI/CD reports back if an experiment was successful or not
 
 ## Guidelines
 
