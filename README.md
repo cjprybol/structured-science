@@ -73,6 +73,7 @@ cross-experiment tracking:
 - https://github.com/polyaxon/polyaxon
 - https://wandb.ai/site (not open source)
 - https://neptune.ai/ (not open source)
+- https://www.comet.ml/site/ (not open source)
 - straight git
   - each git branch is an experiment
   - branch/experiment naming pattern?
@@ -111,12 +112,16 @@ Maximum file size is 100 MB
 Maximum repository size is 10 GB (10K MB)
 Include as many data points as we can
 
-- 10B 1b rows/files/datum
-- 1B 10b rows/files/datum
-- 100M 100b rows/files/datum
-- 10M 1kb rows/files/datum
-- 1M 10kb rows/files/datum
-- 100k 100kb rows/files/datum
-- 10K 1Mb rows/files/datum
-- 1K 10Mb rows/files/datum
-- 10 100Mb rows/files/datum
+| # of results (rows/files) | @ result size | sharding required |
+|---------------------------|---------------|-------------------|
+| 10B                       | 1b            | no                |
+| 1B                        | 10b           | no                |
+| 100M                      | 100b          | no                |
+| 10M                       | 1Kb           | no                |
+| 1M                        | 10Kb          | no                |
+| 100K                      | 100Kb         | no                |
+| 10K                       | 1Mb           | no                |
+| 1K                        | 10Mb          | no                |
+| 100                       | 100Mb         | no                |
+| 10                        | 1Gb           | yes               |
+| 1                         | 10Gb          | yes               |
