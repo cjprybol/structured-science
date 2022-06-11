@@ -88,8 +88,12 @@ cross-experiment tracking:
 - https://neptune.ai/ (not open source)
 - https://www.comet.ml/site/ (not open source)
 
+[good guide on an open source mlops flow with deployment and monitoring](https://blog.verta.ai/robust-mlops-with-open-source-modeldb-docker-jenkins-and-prometheus)
 
 ## Guidelines
+
+Models should be interpretable in why they are making decisions:
+- https://christophm.github.io/interpretable-ml-book/local-methods.html
 
 Provide feedback audits:
 - computational: github code reviews
