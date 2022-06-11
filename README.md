@@ -128,6 +128,8 @@ We recommend using github codespaces for development, because:
 - every project is developed in the docker container in which it will be deployed to production
 - YYYY-MM-DD-USER_ID-EXPERIMENT_TITLE.ipynb as the naming convention
 
+[work optimization](https://github.com/oxinabox/ProjectManagement.jl)
+
 ## Interaction guidelines
 
 Use the git limit for repo storage as your barometer for whether to cache the results within the repo or whether to rely on external storage locations.
