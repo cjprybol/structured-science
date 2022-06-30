@@ -134,6 +134,12 @@ We recommend using github codespaces for development, because:
 
 [work optimization](https://github.com/oxinabox/ProjectManagement.jl)
 
+[DVC](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc)
+[DVC](https://dvc.org/)
+[CML](https://cml.dev/)
+[DVC training](https://learn.iterative.ai/course/data-scientist-path)
+
+
 ## Interaction guidelines
 
 Use the git limit for repo storage as your barometer for whether to cache the results within the repo or whether to rely on external storage locations.
