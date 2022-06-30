@@ -139,7 +139,7 @@ We recommend using github codespaces for development, because:
 [DVC](https://dvc.org/)
 [CML](https://cml.dev/)
 [DVC training](https://learn.iterative.ai/course/data-scientist-path)
-
+[metadata](https://open-metadata.org/)
 
 ## Interaction guidelines
 
