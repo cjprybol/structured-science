@@ -29,6 +29,7 @@ non-computational project templating:
 - benchling
 
 Computational project templating (a collection of 1 or more experiments of the same template):
+- https://drivendata.github.io/cookiecutter-data-science/#example
 - python-based and general
   - [cookie cutter datascience](https://github.com/drivendata/cookiecutter-data-science)
     - use conda or virtual environments to manage and define your python environment
