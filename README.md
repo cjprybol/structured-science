@@ -29,7 +29,7 @@ non-computational project templating:
 - benchling
 
 Computational project templating (a collection of 1 or more experiments of the same template):
-- python-based
+- python-based and general
   - [cookie cutter datascience](https://github.com/drivendata/cookiecutter-data-science)
     - use conda or virtual environments to manage and define your python environment
 - julia-based
@@ -45,6 +45,8 @@ Computational project templating (a collection of 1 or more experiments of the s
 
 Computational notebook:
 - jupyter
+  - https://github.com/jupyterlab/jupyterlab-google-drive
+  - SQL
 - zeppelin
 - pluto
 - observable
@@ -89,6 +91,8 @@ cross-experiment tracking:
 - https://www.comet.ml/site/ (not open source)
 
 [good guide on an open source mlops flow with deployment and monitoring](https://blog.verta.ai/robust-mlops-with-open-source-modeldb-docker-jenkins-and-prometheus)
+
+[Turing institute guide on reproducible research](https://github.com/alan-turing-institute/the-turing-way)
 
 [deploy to production with github actions](https://docs.github.com/en/actions/migrating-to-github-actions/migrating-from-jenkins-to-github-actions)
 
